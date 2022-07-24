@@ -1,5 +1,5 @@
 body {
-  background: blanchedalmond;
+  background-color: blanchedalmond;
   margin: 0;
   text-align: center;
   font-size: xx-large;
@@ -35,12 +35,9 @@ body {
 }
 
 @media (min-width: 600px) {
-  body {
-    background-color: orange;
-  } 
-  /* .container {
+  .container {
     flex-direction: row;
-    flex-direction: wrap;
+    flex-wrap: wrap;
   }
 
   .a {
@@ -49,5 +46,5 @@ body {
 
   .b {
     max-width: 70%;
-  } */
+  } 
 }
