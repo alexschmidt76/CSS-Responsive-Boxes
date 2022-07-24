@@ -22,7 +22,7 @@ body {
 }
 
 .container-2 > div {
-  margin: .5em;
+  margin: 0 .5em;
 }
 
 .a {
@@ -54,4 +54,18 @@ body {
   background-color: blue;
   flex-grow: 1;
 
+}
+
+@media (min-width: 600px) {
+  .b {
+    flex-grow: 3;
+  }
+
+  .container-2 {
+    flex-grow: 3;
+  }
+
+  .f {
+    flex-grow: 1;
+  }
 }
