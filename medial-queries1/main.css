@@ -1,3 +1,53 @@
 body {
   background: blanchedalmond;
+  margin: 0;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.a,
+.b,
+.c {
+  margin: .5em;
+}
+
+.a {
+  background-color: red;
+  flex-grow: 2;
+}
+
+.b {
+  background-color: blue;
+  min-height: 70vh;
+  flex-grow: 7;
+}
+
+.c {
+  background-color: green;
+  flex-grow: 2;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: orange;
+  } 
+  /* .container {
+    flex-direction: row;
+    flex-direction: wrap;
+  }
+
+  .a {
+    width: 100%;
+  }
+
+  .b {
+    max-width: 70%;
+  } */
 }
